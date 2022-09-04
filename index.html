@@ -183,15 +183,19 @@
     <!-- 测试面板样式 -->
     <style>
         .function-box {
-            width: 800px;
-            height: 2480px;
+            width: 1000px;
+            height: 2280px;
             position: relative;
             padding: 20px;
             box-sizing: border-box;
-
+            overflow-y: auto;
             margin-left: 1150px;
-            margin-top: -2500px;
+            margin-top: -2300px;
             background-color: rgb(218,185,149);
+        }
+
+        .function-box::-webkit-scrollbar {
+            display: none;
         }
 
         .function-item {
@@ -270,64 +274,64 @@
     <div class="function-box">
         <!-- 对话框 -->
         <div class="function-item" style="margin-top: 50px;">
-            <label style="font-size: 40px;">
+            <label style="font-size: 50px;">
                 添加或修改左边的头像 ( 不要上传透明背景的 )
-                <input type="file" class="add-he-head-img" accept="image/*" style="font-size: 30px;">
+                <input type="file" class="add-he-head-img" accept="image/*" style="font-size: 50px;">
             </label>
             <button class="add-he-dialog"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加左边对话框
             </button>
             <button class="add-zyy-yd"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加左边语音-已读
             </button>
             <button class="add-zyy"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加左边语音-未读
             </button>
             <button class="add-zst-dialog"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加左边视屏通话
             </button>
             <button class="add-zsj-dialog"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加左边视屏通话-拒绝
             </button>
-            <label style="font-size: 40px;">
+            <label style="font-size: 50px;">
                 左边分享视频（只能上传图片）
-                <input style="font-size: 40px;" type="file" class="add-he-expression-dialog" accept="image/*">
+                <input style="font-size: 50px;" type="file" class="add-he-expression-dialog" accept="image/*">
             </label>
 
             <hr style="margin-top: 20px;">
-            <label style="font-size: 40px;margin-top: 20px;">
+            <label style="font-size: 50px;margin-top: 20px;">
                 添加或修改右边的头像 ( 不要上传透明背景的 )
-                <input type="file" class="add-self-head-img" accept="image/*" style="font-size: 30px;">
+                <input type="file" class="add-self-head-img" accept="image/*" style="font-size: 50px;">
             </label>
             <button class="add-self-dialog"
-                    style="margin-left:90px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:90px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加右边对话框
             </button>
             <button class="add-yy-dialog"
-                    style="margin-left:10px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="margin-left:10px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加右边语音消息
             </button>
             <button class="add-st-dialog"
-                    style="margin-left:-20px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 5px 10px 5px;margin-top: 20px;">
+                    style="margin-left:-20px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 5px 10px 5px;margin-top: 20px;">
                 添加右边视屏通话
             </button>
             <button class="add-ysj-dialog"
-                    style="margin-left:5px;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 5px 10px 5px;margin-top: 20px;">
+                    style="margin-left:5px;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 5px 10px 5px;margin-top: 20px;">
                 添加右边视屏通话-拒绝
             </button>
 
             <button class="add-sj-dialog"
-                    style="float:right;font-size: 40px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
+                    style="float:right;font-size: 50px;background-color: #333333;color: white;border-radius: 10px;padding: 10px 10px 10px 10px;margin-top: 20px;">
                 添加时间
             </button>
-            <label style="font-size: 40px;margin-top: 100px;">
+            <label style="font-size: 50px;margin-top: 150px;">
                 右边分享视频(只能上传图片)
-                <input style="font-size: 40px;" type="file" class="add-self-expression-dialog" accept="image/*">
+                <input style="font-size: 50px;" type="file" class="add-self-expression-dialog" accept="image/*">
             </label>
 
         </div>
@@ -343,26 +347,26 @@
 
         <!-- 插入重点文字 -->
         <div class="function-item" style="margin-top: 50px;">
-            <label style="font-size: 30px;margin-left: 130px;">
+            <label style="font-size: 50px;margin-left: 110px;">
                 <input type="text" placeholder="点击输入要变色内容" class="key-words"
                        style="height:80px;font-size: 30px;width: 500px;background-color: black;color: white;">
             </label>
-            <label style="font-size: 30px;margin-top: 20px;margin-left: 280px;">
+            <label style="font-size: 50px;margin-top: 20px;margin-left: 180px;">
                 颜色 :<input type="color" class="key-color" value="#5B6B92"
-                           style="font-size: 30px;height: 40px;width: 100px;">
+                           style="font-size: 30px;height: 50px;width: 200px;">
             </label>
-            <div style="margin-top: 20px;margin-left: 220px;">
-                <label style="font-size: 30px;">
+            <div style="margin-top: 20px;margin-left: 80px;">
+                <label style="font-size: 50px;">
                     有下划线
-                    <input type="radio" name="drone" class="key-checkbox" value="underline" style="font-size: 30px;">
+                    <input type="radio" name="drone" class="key-checkbox" value="underline" style="font-size: 50px;width: 50px;height: 50px;">
                 </label>
-                <label style="font-size: 30px;">
+                <label style="font-size: 50px;">
                     无下划线
-                    <input type="radio" name="drone" class="key-checkbox" value="none" checked style="font-size: 30px;">
+                    <input type="radio" name="drone" class="key-checkbox" value="none" checked style="font-size: 50px;width: 50px;height: 50px;">
                 </label>
             </div>
             <button class="key-button"
-                    style="margin-left:220px;font-size: 30px;background-color: black;color: white;border-radius: 10px;margin-top: 30px;padding: 20px 20px 20px 20px;">
+                    style="margin-left:130px;font-size: 50px;background-color: black;color: white;border-radius: 10px;margin-top: 30px;padding: 20px 20px 20px 20px;">
                 在光标处插入文字
             </button>
 
@@ -373,7 +377,7 @@
         <!-- 保存图片 -->
         <div class="function-item" style="margin-left: 260px;margin-top: 50px;">
             <button class="save-img"
-                    style="color: white;background-color: #333333;height: 50px;font-size: 40px;border-radius: 10px;padding: 0px 20px 20px 20px;">
+                    style="color: rgb(218,185,149);background-color:rgb(218,185,149);height: 50px;font-size: 40px;border: none;padding: 0px 20px 20px 20px;">
                 保存图片
             </button>
         </div>
@@ -387,7 +391,6 @@
 
 
     </div>
-
 </div>
 
 <!-- 引入 emoji -->
