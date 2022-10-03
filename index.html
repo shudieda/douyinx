@@ -48,7 +48,7 @@
             background: #fff;
             margin-bottom: 10px;
             font-size: 50px;
-            font-family: 苹方;
+            font-family: PingFang SC Regular;
 
         }
 
@@ -225,8 +225,8 @@
         }
 
         @font-face {
-            font-family: 苹方;
-            src: url("ziti/苹方.ttf");
+            font-family: PingFang SC Regular;
+            src: url("ziti/PingFang SC Regular.ttf");
         }
 
         .add-he-head-img {
@@ -291,7 +291,7 @@
 
     </style>
 </head>
-<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149)">
+<body oncontextmenu=self.event.returnValue=false style="background-color: rgb(218,185,149);font-family: PingFang SC Regular;">
 <div class="wrapper">
     <div class="bbox">
         <div style="height: 263px;width: 1125px;background-color: rgb(253,253,253);border-bottom:1px solid rgb(224,224,224)">
@@ -299,12 +299,12 @@
 
             <div>
                 <div contenteditable class="acc"
-                       style="color:rgb(116,117,121);font-family:苹方;font-size:40px;border:none;margin-left:80px;margin-top:190px; width:200px;height: 55px; background-color:transparent;float: left;"
+                       style="color:rgb(116,117,121);font-family:PingFang SC Regular;font-size:40px;border:none;margin-left:80px;margin-top:190px; width:200px;height: 55px; background-color:transparent;float: left;"
                        type="text"
                        name="text"
                      value="">在线</div>
-                <div class="acc"
-                       style="font-family:苹方;font-size:50px;border:none;margin-left:-200px;margin-top:130px; width:200px;height: 55px; background-color:transparent;float: left;"
+                <div contenteditable class="acc"
+                       style="font-family:PingFang SC Regular;font-size:50px;border:none;margin-left:-200px;margin-top:130px; width:200px;height: 55px; background-color:transparent;float: left;"
                        type="text"
                        name="text"
                      value="">美国队长</div>
@@ -327,7 +327,6 @@
         </div>
         <div>
             <img src="tutu/dy-sc/321.png">
-
         </div>
     </div>
     <!-- 侧边 功能区 -->
@@ -456,13 +455,11 @@
             </button>
         </div>
 
-
         <!-- 在光标处插入表情 -->
         <div class="function-item" style="opacity: 0;">
             <p>点击表情即可在光标处插入表情</p>
             <div class="emoji-box"></div>
         </div>
-
 
     </div>
 </div>
@@ -548,8 +545,8 @@
         let abcDiv = document.createElement('div')
         abcDiv.innerHTML = "                <div style='float: left;clear: both;'>\n" +
             "                    <img src=\"tutu/dy-sc/3.png\" style='margin-top:20px;margin-left: 150px;float: left;clear: both;'>\n" +
-            "                    <div class=\"acc\"\n" +
-            "                           style=\"font-family:苹方;font-size:40px;border:none;margin-top:20px;margin-left: 20px; width:400px;height: 55px; background-color:transparent;color: rgb(115,116,120)\"\n" +
+            "                    <div contenteditable class=\"acc\"\n" +
+            "                           style=\"font-family:PingFang SC Regular;font-size:40px;border:none;margin-top:20px;margin-left: 20px; width:400px;height: 55px; background-color:transparent;color: rgb(115,116,120)\"\n" +
             "                           type=\"text\"\n" +
             "                           name=\"text\"\n" +
             "                           >双击点赞</div>\n" +
@@ -635,12 +632,12 @@
         let dialogDiv = document.createElement('div')
         dialogDiv.innerHTML = "            <div style=\"position:relative;\">\n" +
             "                <img src=\"tutu/dy-sc/10.png\" style=\"margin-top:30px;margin-left:px;margin-bottom:15px;float: left;clear: left;\">\n" +
-            "                <div class=\"dm\"\n" +
+            "                <div contenteditable class=\"dm\"\n" +
             "                       style=\"font-family:方正兰亭准黑简体;font-size:50px;border:none;margin-top:-175px;margin-left:160px; width:300px;height: 55px; background-color:transparent;color: rgb(1,1,1);float: left;clear: left;\"\n" +
             "                       type=\"text\"\n" +
             "                       name=\"text\"\n" +
             "                      >通话已拒绝</div>\n" +
-            "                <div class=\"dm\"\n" +
+            "                <div contenteditable class=\"dm\"\n" +
             "                       style=\"font-family:方正兰亭准黑简体;font-size:40px;border:none;margin-top:-105px;margin-left:160px; width:300px;height: 55px; background-color:transparent;color: rgb(112,113,118);float: left;clear: left;\"\n" +
             "                       type=\"text\"\n" +
             "                       name=\"text\"\n" +
@@ -673,7 +670,7 @@
         let dialogDiv = document.createElement('div')
         dialogDiv.innerHTML = "            <div style=\"position:relative;\">\n" +
             "                <img src=\"tutu/dy-sc/13.png\" style=\"margin-top:30px;margin-left:px;margin-bottom:15px;float: left;clear: left;\">\n" +
-            "                <div class=\"dm\"\n" +
+            "                <div contenteditable class=\"dm\"\n" +
             "                       style=\"font-family:方正兰亭准黑简体;font-size:50px;border:none;margin-top:-110px;margin-left:140px; width:350px;height: 55px; background-color:transparent;color: rgb(1,1,1);float: left;clear: left;\"\n" +
             "                       type=\"text\"\n" +
             "                       name=\"text\"\n" +
@@ -708,8 +705,8 @@
         dialogDiv.setAttribute('contenteditable', true)
         let abcDiv = document.createElement('div')
         abcDiv.innerHTML = "                <div style='float: right;clear: both;'>\n" +
-            "                    <div class=\"acc\"\n" +
-            "                           style=\"font-family:苹方;font-size:40px;border:none;margin-top:20px;margin-right:-100px; width:400px;height: 55px; float: right;clear: both;background-color:transparent;color: rgb(115,116,120)\"\n" +
+            "                    <div contenteditable class=\"acc\"\n" +
+            "                           style=\"font-family:PingFang SC Regular;font-size:40px;border:none;margin-top:20px;margin-right:-100px; width:400px;height: 55px; float: right;clear: both;background-color:transparent;color: rgb(115,116,120)\"\n" +
             "                           type=\"text\"\n" +
             "                           name=\"text\"\n" +
             "                           value=\"\">已送达</div>\n" +
@@ -766,7 +763,7 @@
         // 3. 创建对话框div
         let abcDiv = document.createElement('div')
         abcDiv.innerHTML = "<img src='tutu/dy-sc/9.png' style='margin-left: 430px;margin-top: 30px;float: right'>" +
-            "<div style='float:left;margin-left: 570px;margin-top: -95px;font-size: 50px;width: 350px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>通话时长00:02</div>"
+            "<div contenteditable style='float:left;margin-left: 570px;margin-top: -95px;font-size: 50px;width: 350px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>通话时长00:02</div>"
 
         // 4. 把头像和对话框添加到单条数据中 ( 这个要和他人的顺序相反 )
         itemDiv.appendChild(headDiv)
@@ -792,8 +789,8 @@
         // 3. 创建对话框div
         let abcDiv = document.createElement('div')
         abcDiv.innerHTML = "<img src='tutu/dy-sc/12.png' style='margin-left: 430px;margin-top: 30px;float: right'>" +
-            "<div style='float:left;margin-left: 650px;margin-top: -160px;font-size: 50px;width: 300px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>对方未接通</div>" +
-            "<div style='float:left;margin-left: 650px;margin-top: -85px;font-size: 40px;width: 300px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>点击呼叫</div>"
+            "<div contenteditable style='float:left;margin-left: 650px;margin-top: -160px;font-size: 50px;width: 300px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>对方未接通</div>" +
+            "<div contenteditable style='float:left;margin-left: 650px;margin-top: -85px;font-size: 40px;width: 300px;background-color: transparent;border: none;color: rgb(255,255,255)' value=''>点击呼叫</div>"
 
         // 4. 把头像和对话框添加到单条数据中 ( 这个要和他人的顺序相反 )
         itemDiv.appendChild(headDiv)
@@ -891,8 +888,8 @@
 
             let accDiv = document.createElement('div')
             accDiv.innerHTML = "<div style='color:rgb(255,255,255);background-color:transparent;border:none;position:absolute;float: right;margin-left: 260px;margin-top: 765px;font-size: 35px;width: 350px;' value=''>美国队长</div>" +
-                "<div style='float:left;position:absolute;margin-left: 200px;font-size: 40px;margin-top:650px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>" +
-                "<div style='float:left;position:absolute;margin-left: 200px;font-size: 40px;margin-top:590px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>"
+                "<div contenteditable style='float:left;position:absolute;margin-left: 200px;font-size: 40px;margin-top:650px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>" +
+                "<div contenteditable style='float:left;position:absolute;margin-left: 200px;font-size: 40px;margin-top:590px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>"
             // 3. 创建存放自定义表情的 img
             let dialogImg = document.createElement('img')
             dialogImg.src = e.target.result
@@ -952,8 +949,8 @@
 
             let accDiv = document.createElement('div')
             accDiv.innerHTML = "<div style='color:rgb(255,255,255);background-color:transparent;border:none;position:absolute;float: right;margin-left: 550px;margin-top: -80px;font-size: 35px;width: 350px;' value=''>美国队长</div>" +
-                "<div style='float:left;position:absolute;margin-left: 490px;font-size: 40px;margin-top: -200px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>" +
-                "<div style='float:left;position:absolute;margin-left: 490px;font-size: 40px;margin-top: -260px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>"
+                "<div contenteditable style='float:left;position:absolute;margin-left: 490px;font-size: 40px;margin-top: -200px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>" +
+                "<div contenteditable style='float:left;position:absolute;margin-left: 490px;font-size: 40px;margin-top: -260px;width: 400px;color: white;background-color: transparent;border: none;' value=''>点击编辑</div>"
             // 3. 创建存放自定义表情的 img
             let dialogImg = document.createElement('img')
             dialogImg.src = e.target.result
